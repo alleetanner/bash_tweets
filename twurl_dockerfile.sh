@@ -10,7 +10,7 @@ date=$(date)
 printf "\nStarting harvester at $date...\n\n";
 
 # authenticate twurl
-#twurl authorize --consumer-key XXXX --consumer-secret XXXX;
+twurl authorize --consumer-key XXXX --consumer-secret XXXX;
 
 # take the input list and turn it into ID numbers through Twython
 printf "${colour2}Converting usernames in follow list to persistent ID numbers...\n${white}";
